@@ -1,0 +1,60 @@
+/* Visit http://hompimpaalaihumgambreng.blogspot.com */
+
+* {margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+
+*:focus {outline:none;}
+
+#wrap {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:30000px;
+  height:1000px;
+}
+
+h3 {
+  margin:70px 30px;
+  font:normal 22px Arial,Sans-Serif;
+  color:#fff;
+  color:rgba(255,255,255,0.7);
+}
+
+.box {
+  width:33.33%;
+  height:50%;
+  float:left;
+  background-color:#ccc;
+}
+
+#home      {background-color:#2f2f2f;}
+#website   {background-color:#00A7E2;}
+#fun       {background-color:#EE9A10;}
+#about     {background-color:#DD1F8E;}
+#skill     {background-color:#620294;}
+#contact   {background-color:#84C922;}
+
+ul#nav {
+ width:100%;
+ height:30px;
+ background:#000;
+ position:fixed;
+ top:0px;
+ left:0px;  
+}
+
+ul#nav li {
+ display:inline;
+ float:left;   
+}
+
+ul#nav li a {
+ font:bold 10px Arial,Sans-Serif;
+ text-decoration:none;
+ color:#999;
+ display:block;   
+ padding:8px 15px;
+}
+
+ul#nav li a:hover, ul#nav li a.active {
+ color:#fff;
+}
